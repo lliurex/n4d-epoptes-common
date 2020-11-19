@@ -1,0 +1,16 @@
+Source: n4d-epoptes-common
+Section: admin
+Priority: extra
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Angel Berlanas Vicente <lliurex_devel2@edu.gva.es>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, David Montalva Furio <montalva_dav@gva.es>, Alfons Lloret Sananton <lliurex_devel5@edu.gva.es>, Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>, Jose Carlos Garcia Monsalvez <garcia_josmon@gva.es>, Jaime Munyoz Fayos <munyoz_jaifay@gva.es>, Miguel Garcia Gomez <garcia_miggom@gva.es>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: http://www.lliurex.net
+#Vcs-Svn: http://svn.lliurex.net/pandora/n4d-epoptes-server/trunk
+
+Package: n4d-epoptes-common
+Architecture: all
+Pre-depends: n4d
+Depends: ${shlibs:Depends}, ${misc:Depends}, iptables
+Description: n4d plugin for epoptes
+ n4d plugin to allow enhance epoptes tcp/ip security
