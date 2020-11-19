@@ -1,0 +1,6 @@
+[SETUP]
+type=python
+path=EpoptesFilter.py
+class=EpoptesFilter
+[METHODS]
+startup=sudo,admins,teachers
