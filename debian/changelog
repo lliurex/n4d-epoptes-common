@@ -1,3 +1,9 @@
+n4d-epoptes-common (0.1.5) bionic; urgency=medium
+
+  * adding group 1000
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 07 Dec 2020 14:49:37 +0100
+
 n4d-epoptes-common (0.1.4) bionic; urgency=medium
 
   * Dummy-upgrade
