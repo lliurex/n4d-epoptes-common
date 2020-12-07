@@ -5,7 +5,7 @@ class EpoptesFilter:
 	
 	def __init__(self):
 		
-		self.allowed_groups=[0,10001,10003]
+		self.allowed_groups=[0,1000,10001,10003]
 		self.del_epoptes_from_iptables()
 		self.set_drop_epoptes()
 		self.set_accept_allowed_groups()
