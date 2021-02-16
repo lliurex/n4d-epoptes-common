@@ -6,7 +6,7 @@ HTTP_DIR="/var/www/mirror"
 case $1 in
 	configure)
 
-                n4d-modules enable-plugin /etc/n4d/conf.d/EpoptesFilter || true		
+                n4d-modules enable-plugin /etc/n4d/conf.d/EpoptesFilter.json || true		
 
 	;;
 	*)
