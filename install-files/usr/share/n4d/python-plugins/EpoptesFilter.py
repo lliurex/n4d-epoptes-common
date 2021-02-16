@@ -1,5 +1,6 @@
 import subprocess
 import os
+import n4d.responses
 
 class EpoptesFilter:
 	
@@ -16,7 +17,12 @@ class EpoptesFilter:
 	def del_epoptes_from_iptables(self):
 		
 		p=subprocess.Popen(["iptables-save"],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-		output=p.communicate()[0].split("\n")
+		output=p.communicate()[0]
+
+		if type(output) is bytes:
+			output=output.decode()
+			
+		output=output.split("\n")
 		
 		ret=[]
 		
@@ -30,14 +36,14 @@ class EpoptesFilter:
 			os.system(item)
 		
 		
-	#def parse_iptables
+	#def del_epoptes_from_iptables
 
 	def set_drop_epoptes(self):
 	
 		cmd="iptables -A OUTPUT -p tcp --dport 10000 -j DROP"
 		os.system(cmd)
 		
-	#
+	#def set_drop_epoptes
 	
 	def set_accept_allowed_groups(self):
 		
@@ -46,9 +52,10 @@ class EpoptesFilter:
 			cmd="iptables -I OUTPUT -m owner --gid-owner %s -p tcp --dport 10000 -j ACCEPT"%item
 			os.system(cmd)
 	
-		return True
+		#Old n4d:return True
+		return n4d.responses.build_successful_call_response()
 		
-	#def set_iptables
+	#def set_accept_allowed_groups
 	
 #class EpoptesFilter
 

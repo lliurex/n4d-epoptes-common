@@ -1,0 +1,17 @@
+{
+	"SETUP":{
+		"type":"python",
+		"path":"EpoptesFilter.py",
+		"class":"EpoptesFilter"
+	},
+	"METHODS":{
+		"startup":{
+			"allowed_groups":[
+				"sudo",
+				"admins",
+				"teachers"
+			]
+		}
+	}
+}	
+	
