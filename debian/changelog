@@ -1,3 +1,9 @@
+n4d-epoptes-common (0.2.6) focal; urgency=medium
+
+  * Add support to CDC users
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 21 Apr 2022 13:47:54 +0200
+
 n4d-epoptes-common (0.2.5) focal; urgency=medium
 
   * Initial release for focal
