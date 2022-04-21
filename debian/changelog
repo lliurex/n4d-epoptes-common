@@ -1,3 +1,9 @@
+n4d-epoptes-common (0.1.6) bionic; urgency=medium
+
+  * Add support to CDC users
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 21 Apr 2022 13:46:36 +0200
+
 n4d-epoptes-common (0.1.5) bionic; urgency=medium
 
   * adding group 1000
