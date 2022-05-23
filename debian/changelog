@@ -1,3 +1,9 @@
+n4d-epoptes-common (0.1.7) bionic; urgency=medium
+
+  * Remove support to CDC users. Suppl-groups not exists in bionic
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 23 May 2022 12:06:14 +0200
+
 n4d-epoptes-common (0.1.6) bionic; urgency=medium
 
   * Add support to CDC users

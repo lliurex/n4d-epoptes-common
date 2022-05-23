@@ -43,7 +43,7 @@ class EpoptesFilter:
 		
 		for item in self.allowed_groups:
 			
-			cmd="iptables -I OUTPUT -m owner --gid-owner %s --suppl-groups -p tcp --dport 10000 -j ACCEPT"%item
+			cmd="iptables -I OUTPUT -m owner --gid-owner %s -p tcp --dport 10000 -j ACCEPT"%item
 			os.system(cmd)
 	
 		return True
