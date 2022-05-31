@@ -1,3 +1,10 @@
+n4d-epoptes-common (0.1.8) bionic; urgency=medium
+
+  * Restore support to CDC users. Suppl-groups has been added to iptables via
+    patch
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 31 May 2022 10:49:55 +0200
+
 n4d-epoptes-common (0.1.7) bionic; urgency=medium
 
   * Remove support to CDC users. Suppl-groups not exists in bionic
