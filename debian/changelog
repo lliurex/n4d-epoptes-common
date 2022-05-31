@@ -1,3 +1,9 @@
+n4d-epoptes-common (0.2.6.1) focal; urgency=medium
+
+  * dummy upgrade 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 31 May 2022 10:43:07 +0200
+
 n4d-epoptes-common (0.2.6) focal; urgency=medium
 
   * Add support to CDC users
