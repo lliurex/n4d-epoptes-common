@@ -1,3 +1,9 @@
+n4d-epoptes-common (0.2.6.1.23) jammy; urgency=medium
+
+  * First jammy release 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 25 Jan 2024 08:51:52 +0100
+
 n4d-epoptes-common (0.2.6.1) focal; urgency=medium
 
   * dummy upgrade 
