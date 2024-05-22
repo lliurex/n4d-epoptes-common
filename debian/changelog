@@ -1,3 +1,10 @@
+n4d-epoptes-common (0.2.7.23) jammy; urgency=medium
+
+  * Added wait time for iptables to be able to adquire xtables lock just in
+    case other process is using it.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 22 May 2024 08:17:25 +0200
+
 n4d-epoptes-common (0.2.6.1.23) jammy; urgency=medium
 
   * First jammy release 
