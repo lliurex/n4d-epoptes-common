@@ -40,7 +40,7 @@ class EpoptesFilter:
 
 	def set_drop_epoptes(self):
 	
-		cmd="iptables -A OUTPUT -p tcp --dport 10000 -j DROP"
+		cmd="iptables -w 30 -A OUTPUT -p tcp --dport 10000 -j DROP"
 		os.system(cmd)
 		
 	#def set_drop_epoptes
@@ -49,7 +49,7 @@ class EpoptesFilter:
 		
 		for item in self.allowed_groups:
 			
-			cmd="iptables -I OUTPUT -m owner --gid-owner {} --suppl-groups -p tcp --dport 10000 -j ACCEPT".format(item)
+			cmd="iptables -w 30 -I OUTPUT -m owner --gid-owner {} --suppl-groups -p tcp --dport 10000 -j ACCEPT".format(item)
 			os.system(cmd)
 	
 		#Old n4d:return True
