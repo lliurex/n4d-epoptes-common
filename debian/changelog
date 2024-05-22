@@ -1,3 +1,10 @@
+n4d-epoptes-common (0.2.7) focal; urgency=medium
+
+  * Added wait time for iptables to be able to adquire xlock just in case it
+    is being used by other process
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 22 May 2024 08:16:10 +0200
+
 n4d-epoptes-common (0.2.6.1) focal; urgency=medium
 
   * dummy upgrade 
